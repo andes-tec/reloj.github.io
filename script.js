@@ -56,8 +56,8 @@ function getWeatherImage(weatherDescription) {
   const currentHour = currentDate.getHours();
 
   // Verifica si la descripción del clima es "cielo despejado" y es después de las 00:00 horas
-  if (weatherDescription === 'cielo claro' && currentHour >= 0) {
-    return 'noche.png'; // Muestra la imagen de noche.png
+  if ((weatherDescription === 'cielo claro' && currentHour >= 20) || (currentHour >= 0 && currentHour < 6)) {
+    return 'noche.png'; // Muestra la imagen de noche.png entre las 20:00 y las 7:00
   }
   switch (weatherDescription) {
     case 'cielo claro':
