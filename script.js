@@ -57,20 +57,20 @@ function getWeatherImage(weatherDescription) {
 
   // Verifica si la descripción del clima es "cielo despejado" y es después de las 00:00 horas
   if (weatherDescription === 'cielo claro' && currentHour >= 0) {
-    return 'assets/noche.png'; // Muestra la imagen de noche.png
+    return 'noche.png'; // Muestra la imagen de noche.png
   }
   switch (weatherDescription) {
     case 'cielo claro':
-      return 'assets/soleado.gif';
+      return 'soleado.gif';
     case 'pocas nubes':
     case 'nubes dispersas':
     case 'nubes rotas':
-      return 'assets/nublado.png';
+      return 'nublado.png';
     case 'lluvia':
-      return 'assets/lluvioso.png';
+      return 'lluvioso.png';
     case 'nieve':
-      return 'assets/nevando.png';
+      return 'nevando.png';
     default:
-      return 'assets/default.png'; // Imagen por defecto si no coincide con ninguna descripción
+      return 'default.png'; // Imagen por defecto si no coincide con ninguna descripción
   }
 }
