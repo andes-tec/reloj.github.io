@@ -1,0 +1,202 @@
+/*body {
+  font-family: Arial, sans-serif;
+  background-color: #13141b;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.titulo {
+  font-size: 1.6em;
+  text-align: center;
+  color: #fff;
+  margin-top: -150px; 
+  margin-bottom: 30px;
+}
+
+.clock {
+  background-color: rgba(0, 0, 0, 0.2); 
+  height: 10vh; 
+  width: 30vw; 
+  border-radius: 10px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  animation: heartbeat 1s infinite; 
+
+}
+
+.time {
+  font-size: 8vw; 
+  text-align: center;
+  color: #fff; 
+}
+
+/* Define la animación "heartbeat" */
+/*@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02); 
+  }
+  100% {
+    transform: scale(1); 
+  }
+}
+
+.temperatura {
+  margin-top: 20px; 
+  background-color: rgba(107, 107, 107, 0.2); 
+  height: 20vh; 
+  width: 30vw; 
+  border-radius: 10px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  animation: heartbeat 5s infinite; 
+  height: auto; 
+
+}
+
+.temp {
+  font-size: 6vw; 
+  text-align: center;
+  color: #fff; 
+}
+
+#weather-description{
+  margin-top: 20px;
+  font-size: 4vw; 
+  text-align: center;
+  color: #fff; 
+
+}
+
+#temperatura-image {
+  max-width: 50%; 
+  height: auto; 
+  display: flex; 
+  margin-top: 10px; 
+  margin-bottom: 30px;
+} 
+*/
+
+/*---------------------- Estilos Celular ----------------------------*/
+
+@media (max-width: 768px){
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #13141b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top:-130px;
+    
+  }
+  
+  /* Estilos para el título */
+  .titulo {
+    font-size: 1.2em; /* Tamaño de fuente más pequeño para pantallas de celular */
+    text-align: center;
+    color: #fff;
+    margin-top: 20px; /* Espacio superior reducido para el título */
+    margin-bottom: 30px; /* Espacio inferior reducido para el título */
+  }
+  
+  /* Estilos para el reloj */
+  .clock {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 15vh; /* Altura reducida para el reloj en pantallas de celular */
+    width: 80vw; /* Ancho aumentado para que ocupe casi toda la pantalla */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    animation: heartbeat 1s infinite;
+  }
+  
+  /* Estilos para la hora */
+  .time {
+    font-size: 10vw; /* Tamaño de fuente más grande para la hora en pantallas de celular */
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Estilos para la descripción del clima */
+  #weather-description {
+    margin-top: 10px; /* Espacio superior reducido para la descripción del clima */
+    font-size: 3vw; /* Tamaño de fuente más pequeño para la descripción del clima */
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Estilos para la imagen del clima */
+  #temperatura-image {
+    max-width: 80%; /* Ancho máximo ajustado para pantallas de celular */
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Espacio inferior reducido para la imagen */
+  }
+  
+  /* Define la animación "heartbeat" */
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.02);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .temperatura {
+    margin-top: 20px; 
+    background-color: rgba(107, 107, 107, 0.2); 
+    height: 20vh; 
+    width: 30vw; 
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    animation: heartbeat 5s infinite; 
+    height: auto; 
+  
+  }
+  
+  .temp {
+    font-size: 6vw; 
+    text-align: center;
+    color: #fff; 
+  }
+  
+  #weather-description{
+    margin-top: 20px;
+    font-size: 4vw; 
+    text-align: center;
+    color: #fff; 
+  
+  }
+  
+  
+
+}
+
