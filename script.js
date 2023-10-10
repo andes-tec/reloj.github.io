@@ -61,7 +61,7 @@ function getWeatherImage(weatherDescription) {
   }
   switch (weatherDescription) {
     case 'cielo claro':
-      return 'soleado.gif';
+      return 'soleado.png';
     case 'pocas nubes':
     case 'nubes dispersas':
     case 'nubes rotas':
