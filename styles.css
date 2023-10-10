@@ -69,21 +69,21 @@ body {
 }
 
 .temp {
-  font-size: 6vw; 
+  font-size: 4vw; 
   text-align: center;
   color: #fff; 
 }
 
 #weather-description{
   margin-top: 20px;
-  font-size: 4vw; 
+  font-size: 2vw; 
   text-align: center;
   color: #fff; 
 
 }
 
 #temperatura-image {
-  max-width: 50%; 
+  max-width: 30%; 
   height: auto; 
   display: flex; 
   margin-top: 10px; 
@@ -102,7 +102,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin-top:-130px;
+    margin-top:-30%;
+    
     
   }
   
@@ -198,4 +199,19 @@ body {
   
   
 
+}
+
+@media (max-width: 1000px) and (orientation: landscape) {
+  body {
+    font-family: Arial, sans-serif;
+    background-color:#13141b;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 100vh;
+    margin-top:0%;   
+    
+  }
+  
 }
